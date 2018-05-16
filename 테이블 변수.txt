@@ -1,0 +1,208 @@
+Apperances
+	yearID : 년도
+	teamID : 팀
+	playerID : 선수 ID 코드
+	G_all : 경기 뛴 총 횟수
+	GS : 투수 선발출장 횟수
+	G_batting : 타자 출장 횟수
+	G_defense : 수비 횟수
+	G_p : 투수 출장 횟수
+	G_c : 포수 출장 횟수
+	G_1b : 1루수 출장 횟수
+	G_2b : 2루수 출장 횟수
+	G_3b : 3루수 출장 횟수
+	G_ss : 유격수 출장 횟수
+	G_lf : 좌익수 출장 횟수
+	G_cf : 중견수 출장 횟수
+	G_rf : 우익수 출장 횟수
+	G_of : 외야수 출장 횟수
+	G_dh : 지명타자 출장 횟수
+	G_ph : 대타자 출장 횟수
+	G_pr : 대주자 출장 횟수
+
+
+Batting
+	playerID : 선수 ID 코드
+	yearID : 년도
+	stint : 시즌 내 이적 횟수
+	teamID : 팀
+	lgID : 리그
+	G : 게임 출장 횟수
+	AB : 타수
+	R : 득점
+	H : 안타
+	2B : 2루타
+	3B : 3루타
+	HR : 홈런
+	RBI : 타점
+	SB : 도루 성공 횟수
+	CS : 도루자(도루실패횟수????
+	BB : 볼넷
+	SO : 삼진아웃
+	IBB : 고의 사구
+	HBP : 데드볼
+	SH : 희생타
+	SF : 희생플라이
+	GIDP : 병살타
+
+
+Fielding
+	playerID : 선수 ID 코드
+	yearID : 년도
+	stint : 시즌 내 이적 횟수
+	teamID : 팀
+	lgID : 리그
+	POS : 포지션
+	G : 
+	GS : 
+	InnOuts : 
+	PO : 
+	A : 어시
+	E : 실책
+	DP : 
+	PB : 
+	WP : 
+	SB : 
+	CS : 
+	ZR : 
+
+
+HallOfFame
+	playerID
+	yearid
+	votedBy : 
+	ballots : 
+	needed : 
+	votes : 
+	inducted : 
+	category : 
+
+
+HomeGames
+	year.key : 
+	league.key : 
+	team.key : 
+	park.key : 
+	span.first : 
+	span.last : 
+	games : 
+	openings : 
+	attendance : 
+
+
+Master
+	playerID
+	birthYear
+	birthMonth
+	birthDay
+	birthCountry
+	birthState
+	birthCity
+	deathYear
+	deathMonth
+	deathDay
+	deathCountry
+	deathState
+	deathCity
+	nameFirst
+	nameLast
+	nameGiven
+	weight
+	height
+	bats : 왼손타자 오른손타자
+	throws : 왼손투수 오른손투수
+	debut
+	finalGame
+	retroID
+	bbrefID
+
+
+Pitching
+	playerID
+	yearID
+	stint
+	teamID
+	lgID
+	W
+	L
+	G
+	GS
+	CG
+	SHO
+	SV
+	IPouts
+	H
+	ER
+	HR
+	BB
+	SO
+	BAOpp
+	ERA
+	IBB
+	WP
+	HBP
+	BK
+	BFP
+	GF
+	R
+	SH
+	SF
+	GIDP
+
+
+Salaries
+	yearID
+	teamID
+	lgID
+	playerID
+	salary
+
+
+Teams
+	yearID
+	lgID
+	franchID
+	divID
+	Rank
+	G
+	Ghome
+	W
+	L
+	DivWin
+	WCWin
+	LgWin
+	WSWin
+	R
+	AB
+	H
+	2B
+	3B
+	HR
+	BB
+	SO
+	SB
+	CS
+	HBP
+	SF
+	RA
+	ER
+	ERA
+	CG
+	SHO
+	SV
+	IPouts
+	HA
+	HRA
+	BBA
+	SOA
+	E
+	DP
+	FP
+	name
+	park
+	attendance
+	BPF
+	PPF
+	teamIDBR
+	teamIDlahman45
+	teamIDretro
